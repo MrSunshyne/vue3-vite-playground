@@ -9,8 +9,9 @@
 <script setup lang="ts">
 </script>
 
-<style scoped>
-button {
-    background:red;
-}
+<style src="../styles/common.styl"></style>
+<style>
+/* button {
+    background:blue;
+} */
 </style>

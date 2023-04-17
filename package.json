@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "reset": "rm -rf node_modules package-lock.json && npm install"
+    "reset": "rm -rf node_modules package-lock.json && npm install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "install": "^0.13.0",
@@ -16,8 +18,18 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.5",
+    "@storybook/addon-interactions": "^7.0.5",
+    "@storybook/addon-links": "^7.0.5",
+    "@storybook/blocks": "^7.0.5",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue3": "^7.0.5",
+    "@storybook/vue3-vite": "^7.0.5",
     "@vitejs/plugin-vue": "^4.1.0",
     "postcss-nesting": "^11.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.5",
     "stylus": "^0.59.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
