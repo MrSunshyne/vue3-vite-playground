@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <button>
-            CSS Component
+            PostCSS
         </button>
     </div>
 </template>
@@ -12,7 +12,9 @@
 <style lang="postcss" scoped>
 .wrapper {
     > button {
+        color:black;
         background:yellow;
     }
+    
 }
 </style>

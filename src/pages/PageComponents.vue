@@ -10,6 +10,7 @@ import CSSComponent from '../components/CSSComponent.vue';
             <BlueButton />
             <YellowButton />
             <GreenButton />
+            <PurpleButton />
         </div>
     </div>
 </template>
@@ -19,6 +20,7 @@ import BlueButton from '../components/BlueButton.vue';
 import RedButton from '../components/RedButton.vue';
 import YellowButton from '../components/YellowButton.vue';
 import GreenButton from '../components/GreenButton.vue';
+import PurpleButton from '../components/PurpleButton.vue';
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <button>
-            SCSS
+            Stylus
         </button>
     </div>
 </template>
@@ -9,10 +9,10 @@
 <script setup lang="ts">
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .wrapper {
     button {
-        background:green;
+        background:purple;
     }
 }
 </style>
