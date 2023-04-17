@@ -5,12 +5,10 @@ import App from './App.vue'
 import PageComponents from './pages/PageComponents.vue';
 
 const Home = { template: '<div>Home</div>' }
-const About = { template: '<div>About</div>' }
 const ComponentsPage = PageComponents
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/about', component: About },
   { path: '/components', component: ComponentsPage },
 ]
 
