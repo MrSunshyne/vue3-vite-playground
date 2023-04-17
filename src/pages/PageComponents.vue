@@ -8,6 +8,8 @@ import CSSComponent from '../components/CSSComponent.vue';
         <div class="components-wrapper">
             <RedButton />
             <BlueButton />
+            <YellowButton />
+            <GreenButton />
         </div>
     </div>
 </template>
@@ -15,6 +17,8 @@ import CSSComponent from '../components/CSSComponent.vue';
 <script setup lang="ts">
 import BlueButton from '../components/BlueButton.vue';
 import RedButton from '../components/RedButton.vue';
+import YellowButton from '../components/YellowButton.vue';
+import GreenButton from '../components/GreenButton.vue';
 </script>
 
 <style scoped>
